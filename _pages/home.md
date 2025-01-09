@@ -18,5 +18,16 @@ intro:
 
         
 ---
+{% comment %}
+This is not responsive. Add this to the templates folder?
+And actually use CSS?
+{% endcomment %}
 
 {% include feature_row id="intro" type="center" %}
+<div class="resume-container">
+    <div>
+        <iframe src="https://drive.google.com/file/d/1yslQWbyxQHIbqgGsphlqpkozmgbglzRp/preview" allow="autoplay"></iframe>
+    </div>
+</div>
+
+
