@@ -7,7 +7,12 @@ header:
     teaser: /assets/images/processorBanner.png
 ---
 
-In this project, I: 
-* Designed a MIPS-inspired 5-stage pipelined processor using Structural Verilog and developer tools written in Python and Bash.
-* Implemented common microarchitectural optimizations such as full bypassing, pipeline stalls, and a Dadda Tree multiplier.
-* Designed custom fixed-point arithmetic instructions and memory-mapped IO with the goal of accelerating digital signal processing
+In this project, I designed a MIPS-inspired 5-stage pipelined processor in Verilog and synthesized it for an Artix-7 FPGA, from scratch.
+It features microarchitectural optimizations such as full bypassing, pipeline stalls, and a 1-cycle Dadda Tree multiplier.
+I also designed custom fixed-point arithmetic instructions and memory-mapped IO with the goal of accelerating digital signal processing operations. These features were used heavily in my [synthesizer]({{eliu}}{% link _portfolio/fpga-synth.md %}) project.
+When synthesized, it can run at a clock speed of 50 MHz.
+
+During the development of this project, I also became more familiar with shell scripting, which allowed me to efficiently run regression tests on my processor as changes were made.
+Alongside GTKWave, these shell scripts allowed me to tease out bugs in my designs. This project simply would have been impossible without them.
+
+This project taught me much about Verilog, digital system design, digital signal processing, and the importance of good developer and validation tools.
