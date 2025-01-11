@@ -5,11 +5,13 @@ header:
     overlay_image: /assets/images/processorBanner.png
     overlay_filter: "0.7"
     teaser: /assets/images/processorBanner.png
+order: 2
 ---
+### February 2024 - April 2024
 
 In this project, I designed a MIPS-inspired 5-stage pipelined processor in Verilog and synthesized it for an Artix-7 FPGA, from scratch.
 It features microarchitectural optimizations such as full bypassing, pipeline stalls, and a 1-cycle Dadda Tree multiplier.
-I also designed custom fixed-point arithmetic instructions and memory-mapped IO with the goal of accelerating digital signal processing operations. These features were used heavily in my [synthesizer]({{eliu}}{% link _portfolio/fpga-synth.md %}) project.
+I also designed custom fixed-point arithmetic instructions and memory-mapped IO with the goal of accelerating digital signal processing operations. These features were used heavily in my [synthesizer]({{eliu}}{% link _portfolio/01-fpga-synth.md %}) project.
 When synthesized, it can run at a clock speed of 50 MHz.
 
 During the development of this project, I also became more familiar with shell scripting, which allowed me to efficiently run regression tests on my processor as changes were made.

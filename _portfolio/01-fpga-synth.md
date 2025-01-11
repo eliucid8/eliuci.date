@@ -25,10 +25,12 @@ header:
 #   - url: /assets/images/unsplash-gallery-image-3.jpg
 #     image_path: assets/images/unsplash-gallery-image-3-th.jpg
 #     alt: "placeholder image 3"
+order: 1
 ---
+### February 2024 - April 2024
 
 This was our final project for ECE 350 - Digital Systems.
-After [designing our own processors]({{eliu}}{% link _portfolio/fpga-cpu.md %}), we were tasked with collaborating with a partner to "do something cool with \[them]." 
+After [designing our own processors]({{eliu}}{% link _portfolio/02-fpga-cpu.md %}), we were tasked with collaborating with a partner to "do something cool with \[them]." 
 Annie and I decided on making a synthesizer, both of us being musicians and finalists in the Signals and Systems song competition. 
 Our original idea was to also create mechatronic puppets that would "sing" along to the synthesizer as it was played: this would also allow us to flex our DSP muscles and implement some sort of spectrum analyzer.
 However, the short 3-week period we were given to implement all of our ideas resulted in us dramatically tightening our scope.
