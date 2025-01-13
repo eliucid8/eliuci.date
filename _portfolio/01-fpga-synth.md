@@ -29,9 +29,9 @@ order: 1
 ---
 ### February 2024 - April 2024
 
-This was our final project for ECE 350 - Digital Systems.
+I worked with my good friend [Annie Lee](https://annabel-lee.xyz/) on a final project for ECE 350 - Digital Systems.
 After [designing our own processors]({{eliu}}{% link _portfolio/02-fpga-cpu.md %}), we were tasked with collaborating with a partner to "do something cool with \[them]." 
-Annie and I decided on making a synthesizer, both of us being musicians and finalists in the Signals and Systems song competition. 
+Annie and I decided on making a synthesizer, both of us deciding we were good enough musicians and engineers to Make This Thing Happen.
 Our original idea was to also create mechatronic puppets that would "sing" along to the synthesizer as it was played: this would also allow us to flex our DSP muscles and implement some sort of spectrum analyzer.
 However, the short 3-week period we were given to implement all of our ideas resulted in us dramatically tightening our scope.
 
