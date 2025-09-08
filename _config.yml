@@ -169,7 +169,7 @@ author:
   name             : "Eric Liu"
   avatar           : "./assets/images/headshotF23.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : >-
-    Junior at Duke University studying ECE/CS.
+    Senior at Duke University studying ECE/CS.
     Interested in FPGA/ASIC design and verification, computer architecture, and embedded systems.
     Casual rock climber, runner, and musician; professional premature optimizer.
   location         : "Durham, NC"
